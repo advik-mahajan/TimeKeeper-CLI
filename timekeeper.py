@@ -51,7 +51,7 @@ def focus_timer():
         elapsed = total_focus_seconds - i
         if elapsed != 0 and elapsed % interval_seconds == 0 and i != 0:
             print("\nTime for a Break!")
-    print("\nFocus Session COmplete!")
+    print("\nFocus Session Complete!")
                   
 
 if choice == 1:
